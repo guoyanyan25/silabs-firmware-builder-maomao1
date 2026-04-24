@@ -36,9 +36,9 @@ void app_init(void)
 {
 }
 
-void app_process_action(void)
-{
-}
+//void app_process_action(void)
+//{
+//}
 
 int main(void)
 {
@@ -61,7 +61,7 @@ int main(void)
     sl_system_process_action();
 
     // Application process.
-    app_process_action();
+   // app_process_action();
 
     // Let the CPU go to sleep if the system allow it.
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT)
