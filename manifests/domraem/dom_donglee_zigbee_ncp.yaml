@@ -1,4 +1,4 @@
-name: DOMDongle-E Zigbee
+name: DOMDongle-Epuls Zigbee
 device: EFR32MG21A020F768IM32
 base_project: src/zigbee_ncp
 filename: "{manifest_name}_{ezsp_version}_{fw_variant}_{baudrate}"
