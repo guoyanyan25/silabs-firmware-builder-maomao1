@@ -36,7 +36,7 @@ void app_init(void)
 {
 
   // 设置 Zigbee 制造商名称（最长16字节）
-  emberAfSetManufacturerName((uint8_t *)"DOMRAE", 6);
+  // emberAfSetManufacturerName((uint8_t *)"DOMRAE", 6);
   
 }
 
