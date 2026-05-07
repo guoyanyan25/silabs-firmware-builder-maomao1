@@ -1,5 +1,5 @@
 name: Seedstudio MG24 Bootloader
-device: EFR32MG24B220F1536IM48
+device: EFR32MG24B210F1536IM48
 base_project: src/bootloader
 filename: "{manifest_name}_{gecko_bootloader_version}_{fw_variant}"
 sdk: "simplicity_sdk:2024.6.3"
@@ -30,5 +30,5 @@ c_defines:
   SL_SERIAL_UART_RTS_PIN:  0
 
   SL_GPIO_ACTIVATION_POLARITY: LOW
-  SL_BTL_BUTTON_PORT: gpioPortC
-  SL_BTL_BUTTON_PIN: 0
+  SL_BTL_BUTTON_PORT: gpioPortB
+  SL_BTL_BUTTON_PIN: 2
