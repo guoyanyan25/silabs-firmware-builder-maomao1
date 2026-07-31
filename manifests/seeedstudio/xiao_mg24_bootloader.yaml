@@ -9,7 +9,7 @@ gbl:
   fw_type: gecko-bootloader
   gecko_bootloader_version: dynamic
   baudrate: 115200
-  fw_variant: BL_PC00
+  fw_variant: BL_PB2
 
 c_defines:
   SL_SERIAL_UART_FLOW_CONTROL: 0
@@ -18,10 +18,10 @@ c_defines:
   SL_SERIAL_UART_PERIPHERAL_NO: 0
 
   SL_SERIAL_UART_TX_PORT: gpioPortA
-  SL_SERIAL_UART_TX_PIN:  6
+  SL_SERIAL_UART_TX_PIN:  5
 
   SL_SERIAL_UART_RX_PORT: gpioPortA
-  SL_SERIAL_UART_RX_PIN:  5
+  SL_SERIAL_UART_RX_PIN:  6
 
   SL_SERIAL_UART_CTS_PORT: 0
   SL_SERIAL_UART_CTS_PIN:  0
